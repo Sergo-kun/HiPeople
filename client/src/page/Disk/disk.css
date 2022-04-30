@@ -1,0 +1,145 @@
+.disk{
+    
+    -webkit-box-shadow: -1px 4px 22px 2px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: -1px 4px 22px 2px rgba(0, 0, 0, 0.2);
+box-shadow: -1px 4px 22px 2px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+margin-left: 18%;
+margin-top: -400px;
+height: 100%;
+width: 80%;
+
+   
+}
+.disk__btns{
+    display: flex;
+}
+.disk__create{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+.disk__back{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popContent {
+   width: 400px;
+   background: white;
+   padding: 20px; 
+   border-radius: 10%;
+   display: flex;
+   flex-direction: column;
+}
+.popHeader{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    margin: 20px 0px;
+    border: rgb(94, 165, 170);
+    border: none;
+    height: 30px;
+}
+.popCreate {
+    align-self: flex-end;
+}
+.input__wrapper {
+    
+    width: 10%;
+    height:40px;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+  }
+   
+  .input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+   
+  .input__file-icon-wrapper {
+    
+    height: 60px;
+    width: 100%;
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-right: 1px solid #fff;
+  }
+   
+  .input__file-button-text {
+      width: 50%;
+    line-height: 1;
+    margin-top: 1px;
+  }
+   
+  .input__file-button {
+     
+    width: 150%;
+    max-width: 70%;
+    height: 40px;
+    background: rgba(209, 209, 209, 0.5);
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .upload{
+      margin-left: -10%;
+      margin-top: -4px;
+  }
+  .dropArea{
+      width: 100%;
+      height: calc(100vh - 50px - 40px);
+      margin: 20px;
+      border: dashed rgb(94, 165, 170) 2px;
+      width: 80%;
+      margin-left: 18%;
+      margin-top: -400px;
+      font-size: 20px;
+      color: rgb(94, 165, 170);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+  }
+  

@@ -1,0 +1,35 @@
+.file__info{ 
+   border: 2px solid rgb(94, 165, 170);
+   list-style: none;
+   display: grid;
+   width: 104%;
+   margin: 10px 0;
+   justify-content: space-around;
+
+}
+.info__name{
+    margin-left: 10px;
+}
+.info__data{
+    margin-left: 600px;
+}
+.info__size{
+    
+    left: 100px;
+   grid-column-start: 5;
+    justify-self: center;  
+}
+.foldeImg{
+    width: 20px;
+}
+.fileDownload{
+    margin-top: -20px;
+    margin-left: 350%;
+    width: 80px;
+    border: 1px solid black;
+}
+.fileDelete{
+    margin-top: -20px;
+    margin-left: 290px;
+    width: 50px;
+}

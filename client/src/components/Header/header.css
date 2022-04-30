@@ -1,0 +1,61 @@
+.header{
+    height: 70px;
+    display: flex;
+    background-color: rgb(94, 165, 170);
+    justify-content: space-between;
+    
+}
+.imgProfile{
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(94, 165, 170);
+}
+.search{
+    
+    margin-bottom: 10px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: white; 
+    border-radius: 30px; 
+}
+.searchInput{
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 20px;
+    height: 30px;
+}
+.searchInput:focus{
+    outline: none;
+}
+.leftItem{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    background-color: rgb(94, 165, 170);
+}
+.buttonLogin{
+    margin-left: 140px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 30px;
+}
+.buttonRegistration{
+    margin-right: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 30px;
+}

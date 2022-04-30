@@ -1,0 +1,29 @@
+.leftbar{
+    margin-top: 10px;
+    background-color: rgb(94, 165, 170);
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    width: 17%;
+    height: 400px;
+}
+.sidebarList{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.sidebarListItem{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}

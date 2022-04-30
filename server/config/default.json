@@ -1,0 +1,7 @@
+{
+    "serverPort" : 3088,
+    "dbUrl" : "mongodb+srv://admin:sergo619@cluster0.hbq80.mongodb.net/social?retryWrites=true&w=majority",
+    "secretKey": "hi-sergo-people",
+    "filePath": "C:/progects/HIpeople/server/files",
+    "staticPath": "C:/progects/HIpeople/server/static"
+}
